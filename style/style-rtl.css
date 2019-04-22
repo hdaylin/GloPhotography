@@ -1,0 +1,594 @@
+/* ------------------------------------------------
+ Author: ArtStyles Brands (ArtTemplate / ArtIcons)
+ URL: http://themeforest.net/user/artstyles
+ 
+ Template Name: Oliver
+ version-rtl: 1.0.2
+------------------------------------------------ */
+/* -----------------------------------------------------------------
+    - General Styles
+----------------------------------------------------------------- */
+body {
+  direction: rtl;
+}
+
+/* Input */
+input[type='text'], input[type='email'], input[type='password'], input[type='datetime'], input[type='date'], input[type='month'], input[type='time'], input[type='week'], input[type='search'], input[type='tel'] {
+  text-align: right;
+}
+
+.has-error .subscribe-form__inner .btn-subscribe {
+  border-right: 1px solid #5328fe;
+}
+
+.label {
+  padding-left: 0;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 580px) {
+  .label {
+    padding-left: 0;
+    padding-right: 15px;
+  }
+}
+
+/* Buttons */
+.btn::before, .btn::after {
+  left: 0;
+  right: -30%;
+}
+.btn:hover::before, .btn:focus::before {
+  left: 0;
+  right: 0;
+}
+
+/* Link */
+.btn-link::after {
+  left: 0;
+  right: -55%;
+}
+.btn-link:hover::after {
+  left: auto;
+  right: 0;
+}
+.btn-link_right {
+  float: left;
+}
+
+/* -----------------------------------------------------------------
+    - Typography
+----------------------------------------------------------------- */
+.title_horizontal-line::before {
+  left: 0;
+  right: -80px;
+}
+.title__section {
+  text-align: right;
+}
+
+.block-quote cite {
+  padding-left: 0;
+  padding-right: 10px;
+}
+.block-quote_center cite {
+  padding-right: 0;
+}
+
+/* -----------------------------------------------------------------
+    - Navbar
+----------------------------------------------------------------- */
+.navbar-nav {
+  margin-right: auto;
+  margin-left: 0;
+}
+.navbar-nav .nav-item a::before {
+  left: auto;
+  right: -30%;
+}
+.navbar-nav .nav-item a.link__last {
+  margin-left: 0;
+  margin-right: 22px;
+}
+@media only screen and (max-width: 991px) {
+  .navbar-nav .nav-item a.link__last {
+    margin-right: 0;
+  }
+}
+.navbar-nav .dropdown-menu {
+  left: 0;
+  right: auto;
+  text-align: right;
+}
+.navbar-nav .dropdown-menu--right::before {
+  left: 1rem;
+  right: auto;
+}
+.navbar-nav .dropdown i {
+  padding-left: 0;
+  padding-right: .5rem;
+}
+
+.hamburger__text {
+  left: 64px;
+  right: auto;
+}
+@media only screen and (max-width: 768px) {
+  .hamburger__text {
+    left: 58px;
+    right: auto;
+  }
+}
+.menu__open .hamburger__text {
+  transform: translateX(-50px);
+}
+
+/* -----------------------------------------------------------------
+    - Hero
+----------------------------------------------------------------- */
+.hero__title_line::before {
+  left: 0;
+  right: -5%;
+}
+.hero__social {
+  left: 40px;
+  right: auto;
+}
+@media only screen and (max-width: 768px) {
+  .hero__social {
+    left: 30px;
+    right: auto;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .hero__social {
+    right: 0;
+    left: auto;
+  }
+}
+.hero__social a {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.hero .next {
+  left: auto;
+  right: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .hero .next {
+    left: auto;
+    right: 30px;
+  }
+}
+
+/* -----------------------------------------------------------------
+    - Gallery
+----------------------------------------------------------------- */
+/* More */
+.section-works .btn-link {
+  margin-left: 0;
+  margin-right: 43px;
+}
+@media only screen and (max-width: 580px) {
+  .section-works .btn-link {
+    margin-right: 0;
+  }
+}
+.section-works .btn-link_right {
+  margin-right: 0;
+  margin-left: 43px;
+}
+@media only screen and (max-width: 580px) {
+  .section-works .btn-link {
+    margin-left: 0;
+  }
+}
+
+/* Custom viewer */
+.pswp__caption .pswp__caption__center {
+  text-align: right;
+}
+
+.pswp__button {
+  float: left;
+}
+
+.pswp__counter {
+  left: auto;
+  right: 0;
+}
+
+/* -----------------------------------------------------------------
+    - Testimonials
+----------------------------------------------------------------- */
+.client-carousel-item .item__block-author::after {
+  left: -180px;
+  right: auto;
+}
+.client-carousel-item .item__block-description {
+  margin-left: 0;
+  margin-right: 410px;
+}
+.client-carousel-item .item__block-description::after {
+  left: auto;
+  right: -100px;
+}
+@media only screen and (max-width: 991px) {
+  .client-carousel-item .item__block-description {
+    margin-left: 0;
+    margin-right: 300px;
+  }
+  .client-carousel-item .item__block-description::after {
+    left: auto;
+    right: -60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .client-carousel-item .item__block-description {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .client-carousel-item .item__block-description {
+    margin-right: 0;
+  }
+}
+.client-carousel-item .item__block-number {
+  margin-left: 0;
+  margin-right: 30px;
+}
+.client-carousel-item .item__block-number::after {
+  left: 0;
+  right: -60%;
+}
+@media only screen and (max-width: 991px) {
+  .client-carousel-item .item__block-number {
+    margin-left: 0;
+    margin-right: 25px;
+  }
+}
+
+.swiper-control .swiper-button-prev::after {
+  left: -100%;
+  right: 0;
+  margin-left: -100%;
+  margin-right: auto;
+}
+.swiper-control .swiper-button-prev:hover::after {
+  left: 0;
+  right: auto;
+  margin-left: 0;
+  margin-right: auto;
+}
+.swiper-control .swiper-button-next {
+  float: left;
+}
+.swiper-control .swiper-button-next::after {
+  left: 0;
+  right: -100%;
+  margin-left: auto;
+  margin-right: -100%;
+}
+.swiper-control .swiper-button-next:hover::after {
+  left: auto;
+  right: 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* -----------------------------------------------------------------
+    - Photo Carousel
+----------------------------------------------------------------- */
+.photo-carousel__item .item__block-description {
+  margin-left: 0;
+  margin-right: -120px;
+}
+@media only screen and (max-width: 991px) {
+  .photo-carousel__item .item__block-description {
+    margin-right: 0;
+  }
+}
+
+/* -----------------------------------------------------------------
+    - Pricing
+----------------------------------------------------------------- */
+.pricing-grid__item::after {
+  left: auto;
+  right: -100%;
+}
+.pricing-grid__item:hover::after {
+  left: auto;
+  right: 0;
+}
+.pricing-grid__item .title__h4::after {
+  left: 0;
+  right: -60px;
+}
+
+/* -----------------------------------------------------------------
+    - Newsletter  
+----------------------------------------------------------------- */
+.subscribe-form__inner .form-control {
+  padding-right: 30px;
+  padding-left: 100px;
+}
+.subscribe-form__inner .btn-subscribe {
+  border-right: 1px solid #fff;
+  left: 0;
+  right: auto;
+}
+
+/* -----------------------------------------------------------------
+    - Section History
+----------------------------------------------------------------- */
+.col-about__describe_left {
+  padding-left: 60px;
+  padding-right: 0;
+}
+@media only screen and (max-width: 991px) {
+  .col-about__describe_left {
+    padding-left: 0;
+  }
+}
+.col-about__describe_left .block-description {
+  padding-right: 0;
+  padding-left: 70px;
+}
+.col-about__describe_left .block-description::before {
+  right: auto;
+  left: -70px;
+}
+.col-about__describe_right {
+  padding-left: 0;
+  padding-right: 60px;
+}
+@media only screen and (max-width: 991px) {
+  .col-about__describe_right {
+    padding-right: 0;
+  }
+}
+.col-about__describe_right .block-description {
+  padding-left: 0;
+  padding-right: 70px;
+}
+.col-about__describe_right .block-description::before {
+  left: auto;
+  right: -70px;
+}
+@media only screen and (max-width: 1199px) {
+  .col-about__describe .block-description {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.col-about__describe .block-description_two-column {
+  padding-right: 0;
+}
+@media only screen and (max-width: 991px) {
+  .col-about__describe .block-description_two-column {
+    text-align: right;
+  }
+}
+.col-about__describe .block-description_two-column::before {
+  left: auto;
+  right: -70px;
+}
+
+.block-image {
+  margin-right: 0;
+}
+.block-image::before {
+  left: -34px;
+  right: auto;
+}
+.block-image._right {
+  text-align: left;
+}
+.block-image__number {
+  left: auto;
+  right: -35px;
+}
+@media only screen and (max-width: 1199px) {
+  .block-image__number {
+    left: auto;
+    right: -35px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .block-image__number {
+    left: auto;
+    right: -30px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .block-image__number {
+    left: auto;
+    right: -15px;
+  }
+}
+
+/* -----------------------------------------------------------------
+    - Blog
+----------------------------------------------------------------- */
+.item-news__header {
+  padding-left: 0;
+  padding-right: 100px;
+}
+.item-news__paragraph_line::before {
+  left: auto;
+  right: -160px;
+}
+.item-news__paragraph td {
+  padding: 6px 0 6px 10px;
+}
+.item-news__masonry .item-news__header {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.item-news__masonry .item-news__header::before {
+  left: auto;
+  right: 0;
+}
+.item-news .initial_letter {
+  float: right;
+  padding: 3px 0 0 16px;
+}
+
+.item-details {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.item-details_right {
+  float: left;
+}
+.item-details li {
+  margin-left: 18px;
+  margin-right: 0;
+}
+.item-details li:last-child {
+  margin-left: 0;
+}
+.item-details li span {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .item-news__main .item-news__header {
+    padding-right: 0;
+  }
+}
+
+/* Singel Post */
+.news-singel .item-news__header {
+  padding-right: 0;
+}
+.news-singel .item-news .share-post a {
+  margin-left: 35px;
+  margin-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .news-singel .item-news .share-post a {
+    margin-left: 30px;
+    margin-right: 0;
+  }
+}
+.news-singel .item-news .share-post a span {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+/* Nav */
+.pager-wrap .pager {
+  padding-right: 0;
+}
+.pager-wrap .pager li.previous a {
+  float: right;
+}
+.pager-wrap .pager li.previous a::after {
+  left: -100%;
+  right: auto;
+}
+.pager-wrap .pager li.previous a:hover::after {
+  left: 0;
+  right: auto;
+}
+.pager-wrap .pager li.next a {
+  float: left;
+}
+.pager-wrap .pager li.next a::after {
+  left: auto;
+  right: -100%;
+}
+.pager-wrap .pager li.next a:hover::after {
+  left: auto;
+  right: 0;
+}
+
+/* Filters */
+.filter-categories {
+  margin-left: 0;
+  margin-right: 60px;
+  padding-right: 0;
+  left: auto;
+  right: 0;
+}
+@media screen and (max-width: 1600px) {
+  .filter-categories {
+    margin-left: 0;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .filter-categories {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .filter-categories__item {
+    margin-left: 26px;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .filter-categories__item {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+}
+.filter-categories__item_current a::before {
+  left: auto;
+  right: -60px;
+}
+
+/* -----------------------------------------------------------------
+    - Cooments
+----------------------------------------------------------------- */
+.section-comments .media .col-avatar {
+  padding-left: 0;
+  margin-left: 30px;
+  margin-right: 0;
+}
+@media screen and (max-width: 580px) {
+  .section-comments .media .col-avatar {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+}
+.section-comments .media .media-body .media-footer .reply i {
+  padding-left: 8px;
+  padding-right: 0;
+}
+
+/* -----------------------------------------------------------------
+    - Contact
+----------------------------------------------------------------- */
+/* PopUp */
+.popup__btn-close {
+  left: 30px;
+  right: auto;
+}
+@media only screen and (max-width: 580px) {
+  .popup__btn-close {
+    left: 15px;
+    right: auto;
+  }
+}
+
+/* -----------------------------------------------------------------
+    - Footer
+----------------------------------------------------------------- */
+.footer::before {
+  left: 0;
+  right: -15px;
+}
+
+/* -----------------------------------------------------------------
+    - Video
+----------------------------------------------------------------- */
+[data-media="mute-unmute"] {
+  right: auto;
+  left: 30px;
+}
+
+/*# sourceMappingURL=style-rtl.css.map */
